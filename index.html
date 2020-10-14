@@ -4,9 +4,926 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">  
+  <link rel="stylesheet" href="css/bootstrap.min.css">  
+  <link rel="stylesheet" href="css/lightbox.min.css">
+  <script src="https://kit.fontawesome.com/9d17b485d5.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/style.css">
+
+  <title>First Web</title>
 </head>
 <body>
+<!-- Секция заголовка -->
+<header id="header" class="container-fluid bg-dark section-header">
+<!-- Навигация -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">    
+    <a class="navbar-brand" href="#header">
+        <i class="fas fa-fire fire-ico"></i>
+    </a>
+    <button class="navbar-toggler" type="button" data-target="#my-nav" data-toggle="collapse" aria-controls="my-nav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div id="my-nav" class="collapse navbar-collapse">
+      <ul class="navbar-nav mx-auto ">
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#about">О нас</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#goals">Наши направления</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#portfolio">Портфолио</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#work-steps">Рабочие шаги</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#footer">Контакты</a>
+        </li>
+      </ul>      
+    </div>
+  </nav>
+<!-- Контент заголовка -->
+  <div class="row">
+    <div class="col header-col-h1">
+      <h1 class="header-h1 text-white text-center">Декоративные изделия из металла</h1>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-12 offset-md-3  col-md-6 offset-lg-4  col-lg-4 offset-xl-5  col-xl-2">
+       <a href="#portfolio" class="btn btn-block btn-warning rounded-pill btn-lg smooth-scroll" role="button" aria-pressed="true">Портфолио</a>
+    </div>
+  </div>
+  <div class="row features-icons font-weight-bold text-uppercase">
+    <div class="col-md-4 mb-2 offset-lg-3 col-lg-2  text-success">
+      <i class="fa fa-usd fa-2x features-icon-dollar feature-align"></i>
+      <p class="paragraph-features">Без наценок</p>
+    </div>
+    <div class="col-md-4 mb-2 col-lg-2 text-primary">
+        <i class="fa fa-clock-o fa-2x feature-align"></i>
+        <p class="paragraph-features">Удобное время доставки</p>
+    </div>
+    <div class="col-md-4 mb-2 col-lg-2 text-warning">
+        <i class="fa fa-check-circle-o fa-2x feature-align"></i>
+        <p class="paragraph-features">Гарантия качества</p>
+    </div>
+  </div>
+</header>
+<!-- Основной контент -->
+<main>
+<!-- Секция About -->
+  <section id="about" class="container-fluid bg-white section-about-us d-flex align-items-md-center justify-content-center flex-wrap flex-md-nowrap">
+    <img src="img/abcace84ca7c9a05f7dfdae8f95bb571.jpg" class="img-thumbnail bg-secondary img-about-us mt-3 mt-md-0" alt="Responsive image">   
+    <div class="paragraph-border-wrap d-flex justify-content-md-center flex-column px-3 px-lg-5 my-3 my-md-0 shadow">
+      <h2>О Нас</h2>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis pr
+         aesentium quasi cum ex, delectus facere, quam, aspernat
+         ur ratione maxime numquam nesciunt. Vel excepturi distinctio d
+         icta! Tenetur eius ex debitis vero! Lorem ipsum dolor sit amet consectetur,
+         adipisicing elit. Placeat non iste veniam in modi commodi dolorum id
+         suscipit magni accusantium nisi sapiente tenetur, rem, sit fuga natus 
+         minima pariatur! Suscipit veniam commodi et. Quae dolores, quo officiis 
+         quod fugit autem expedita, provident recusandae labore illum ipsam
+         aliquid odit adipisci minima ullam sequi? Molestiae autem ab ullam
+         magni, distinctio vitae praesentium porro dolorem sapiente id!
+      </p>
+    </div>
+  </section>
+<!-- Секция Направлений -->
+  <section id="goals" class="container-fluid bg-light section-our-goals">
+    <div class="row text-center mb-5">
+      <div class="col our-goals-head">
+        <h2 class="mb-3">Наши Направления</h2>
+        <P class="text-secondary">Здесь представлены 4 основных направления работ</P>
+      </div>
+    </div>
+<!-- Для больших экранов -->
+    <div class="row row-goals">
+      <div class="col-12 offset-md-2 col-md-4 offset-lg-3 col-lg-3 offset-xl-2 col-xl-2 pb-3">     
+        <div class="card text-center goals-card goals-card-red">
+          <img class="card-img-top goals-card-img" src="/img/30d2aa1fc59d6be9eb71d59c426a59ff.jpg" alt="Card image cap">
+          <div class="card-body d-flex flex-column ">
+            <h5 class="card-title">Уличные очаги в форме шара</h5>
+            <p class="card-text">
+              Some quick example text 
+            </p>
+            <a href="#" class="btn btn-secondary mt-auto">Go somewhere</a>
+          </div>
+        </div>                
+      </div>
+      <div class="col-12 col-md-4 col-lg-3 col-xl-2 pb-3">     
+        <div class="card text-center goals-card goals-card-green">
+          <img class="card-img-top goals-card-img" src="/img/maxresdefault.jpg" alt="Card image cap">
+          <div class="card-body d-flex flex-column ">
+            <h5 class="card-title">Декоративные садовые мангалы</h5>
+            <p class="card-text">
+              Some quick example text 
+            </p>
+            <a href="#" class="btn btn-secondary mt-auto">Go somewhere</a>
+          </div>
+        </div>     
+      </div>
+      <div class="col-12 col-md-4 col-lg-3 col-xl-2 offset-md-2 offset-lg-3 offset-xl-0 pb-3">     
+        <div class="card text-center goals-card goals-card-purple">
+          <img class="card-img-top goals-card-img" src="/img/214.jpg" alt="Card image cap">
+          <div class="card-body d-flex flex-column ">
+            <h5 class="card-title">Декоративные решетки на окна</h5>
+            <p class="card-text">
+              Some quick example text 
+            </p>
+            <a href="#" class="btn btn-secondary mt-auto">Go somewhere</a>
+          </div>
+        </div>            
+      </div>
+      <div class="col-12 col-md-4 col-lg-3 col-xl-2 pb-3">     
+       <div class="card text-center goals-card goals-card-orange">
+          <img class="card-img-top goals-card-img" src="/img/full_25.jpg" alt="Card image cap">
+          <div class="card-body d-flex flex-column ">
+            <h5 class="card-title">Ворота-калитки</h5>
+            <p class="card-text">
+              Some quick example text 
+            </p>
+            <a href="#" class="btn btn-secondary mt-auto">Go somewhere</a>
+          </div>
+        </div>               
+      </div>
+    </div>
+<!-- Для маленьких экранов -->
+    <div class="goals-min">
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators carousel-indicators-new bg-dark">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          <div class="carousel-item active">
+             
+              <div class="card text-center goals-card">
+                      <img class="card-img-top goals-card-img" src="/img/30d2aa1fc59d6be9eb71d59c426a59ff.jpg" alt="Card image cap">
+                      <div class="card-body d-flex flex-column ">
+                        <h4 class="card-title">Уличные очаги в форме шара</h4>
+                        <p class="card-text">
+                          Some quick example text 
+                        </p>
+                        <a href="#" class="btn btn-secondary mt-auto mb-3">Go somewhere</a>
+                      </div>
+                    </div>                
+              
+            </div>
+          <div class="carousel-item">
+                  
+                  <div class="card text-center goals-card">
+                      <img class="card-img-top goals-card-img" src="/img/maxresdefault.jpg" alt="Card image cap">
+                      <div class="card-body d-flex flex-column ">
+                        <h4 class="card-title">Декоративные садовые мангалы</h4>
+                        <p class="card-text">
+                          Some quick example text
+                        </p>
+                        <a href="#" class="btn btn-secondary mt-auto mb-3">Go somewhere</a>
+                      </div>
+                    </div>                
+             
+           </div>
+           <div class="carousel-item">
+              
+                  <div class="card text-center goals-card">
+                      <img class="card-img-top goals-card-img" src="/img/214.jpg" alt="Card image cap">
+                      <div class="card-body d-flex flex-column ">
+                        <h4 class="card-title">Декоративные решетки на окна</h4>
+                        <p class="card-text">
+                          Some quick example text
+                        </p>
+                        <a href="#" class="btn btn-secondary mt-auto mb-3">Go somewhere</a>
+                      </div>
+                    </div>                
+              
+           </div>
+           <div class="carousel-item">
+              
+                  <div class="card text-center goals-card">
+                      <img class="card-img-top goals-card-img" src="/img/full_25.jpg" alt="Card image cap">
+                      <div class="card-body d-flex flex-column ">
+                        <h4 class="card-title">Ворота-калитки</h4>
+                        <p class="card-text">
+                          Some quick example text
+                        </p>
+                        <a href="#" class="btn btn-secondary mt-auto mb-3">Go somewhere</a>
+                      </div>
+                    </div>                
+              </div>
+           
+        </div>
+        <a class="carousel-control-prev carousel-control-new" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
+          <span class="sr-only ">Previous</span>
+        </a>
+        <a class="carousel-control-next carousel-control-new" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+      
+    </div>
+  </section>
+<!-- Секция ещё не придумал для чего (видео?) --> 
+  <section id="video" class="container-fluid section-video" data-vide-options="posterType: jpg" data-vide-bg ="/video/Twisted-Fire.mp4">
+
+  </section>
+<!-- Секция Портфолио -->
+<section id="portfolio" class="container-fluid bg-white section-portfolio">
+    <div class="row text-center mb-5">
+        <div class="col portfolio-head">
+          <h2 class="mb-3">Портфолио</h2>
+          <P class="text-secondary">Здесь представлен краткий список наших работ</P>
+        </div>
+      </div>
+<!-- Для больших экранов -->
+  <div class="portfolio-wrapper portfolio-grid">
+    <div id="card-id-1" class="card card-portfolio">            
+      <div id="flip-front-1" class="front">
+          <a class="portfolio-href" href="img/Black-cat.jpg" data-lightbox="portfolio-lightbox">
+            <img class="card-img img-portfolio" src="img/Black-cat.jpg" alt="Card image"> 
+          </a>
+                      
+          <button id="flip-button-details-1" type="button" class="btn btn-light flip-card show-more">Детали</button>     
+      </div>
+      <div id="flip-back-1" class="back">
+        <div class="card-body">
+          <h4 class="card-title">Card title</h4>  
+          <ul class="list-unstyled">
+            <li>Integer molestie lorem at massa</li>
+            <li>Facilisis in pretium nisl aliquet</li>
+            <li>Nulla volutpat aliquam velit</li>
+            <li>Faucibus porta lacus fringilla vel</li>
+            <li>Eget porttitor lorem</li>
+          </ul>                              
+          <p class="card-text">
+            Some quick example text to build on the card title
+            and make up the bulk of the card's content.
+          </p>                  
+        </div>
+        <button id="flip-button-return-1" type="button" class="btn btn-light flip-card show-more">Назад</button>                                           
+      </div>
+    </div>            
   
+  <div id="card-id-2" class="card card-portfolio">            
+      <div id="flip-front-2" class="front">
+          <a class="portfolio-href" href="img/30d2aa1fc59d6be9eb71d59c426a59ff.jpg" data-lightbox="portfolio-lightbox">
+            <img class="card-img img-portfolio" src="img/30d2aa1fc59d6be9eb71d59c426a59ff.jpg" alt="Card image"> 
+          </a>         
+        <button id="flip-button-details-2" type="button" class="btn btn-light flip-card show-more">Детали</button>     
+      </div>
+      <div id="flip-back-2" class="back">
+        <div class="card-body">
+          <h4 class="card-title">Card title</h4>  
+          <ul class="list-unstyled">
+            <li>Integer molestie lorem at massa</li>
+            <li>Facilisis in pretium nisl aliquet</li>
+            <li>Nulla volutpat aliquam velit</li>
+            <li>Faucibus porta lacus fringilla vel</li>
+            <li>Eget porttitor lorem</li>
+          </ul>                              
+          <p class="card-text">
+            Some quick example text to build on the card title
+            and make up the bulk of the card's content.
+          </p>                  
+        </div>
+        <button id="flip-button-return-2" type="button" class="btn btn-light flip-card show-more">Назад</button>                                           
+      </div>
+    </div>            
+   
+  <div id="card-id-3" class="card card-portfolio">            
+      <div id="flip-front-3" class="front">
+          <a class="portfolio-href" href="img/214.jpg" data-lightbox="portfolio-lightbox">
+            <img class="card-img img-portfolio" src="img/214.jpg" alt="Card image"> 
+          </a>       
+        <button id="flip-button-details-3" type="button" class="btn btn-light flip-card show-more">Детали</button>     
+      </div>
+      <div id="flip-back-3" class="back">
+        <div class="card-body">
+          <h4 class="card-title">Card title</h4>  
+          <ul class="list-unstyled">
+            <li>Integer molestie lorem at massa</li>
+            <li>Facilisis in pretium nisl aliquet</li>
+            <li>Nulla volutpat aliquam velit</li>
+            <li>Faucibus porta lacus fringilla vel</li>
+            <li>Eget porttitor lorem</li>
+          </ul>                              
+          <p class="card-text">
+            Some quick example text to build on the card title
+            and make up the bulk of the card's content.
+          </p>                  
+        </div>
+        <button id="flip-button-return-3" type="button" class="btn btn-light flip-card show-more">Назад</button>                                           
+      </div>
+    </div>           
+
+<div id="card-id-4" class="card card-portfolio">            
+  <div id="flip-front-4" class="front">
+      <a class="portfolio-href" href="img/546884684648646.jpg" data-lightbox="portfolio-lightbox">
+        <img class="card-img img-portfolio" src="img/546884684648646.jpg" alt="Card image"> 
+      </a>      
+      <button id="flip-button-details-4" type="button" class="btn btn-light flip-card show-more">Детали</button>     
+  </div>
+  <div id="flip-back-4" class="back">
+    <div class="card-body">
+      <h4 class="card-title">Card title</h4>  
+      <ul class="list-unstyled">
+        <li>Integer molestie lorem at massa</li>
+        <li>Facilisis in pretium nisl aliquet</li>
+        <li>Nulla volutpat aliquam velit</li>
+        <li>Faucibus porta lacus fringilla vel</li>
+        <li>Eget porttitor lorem</li>
+      </ul>                              
+      <p class="card-text">
+        Some quick example text to build on the card title
+        and make up the bulk of the card's content.
+      </p>                  
+    </div>
+    <button id="flip-button-return-4" type="button" class="btn btn-light flip-card show-more">Назад</button>                                           
+  </div>
+</div>            
+
+<div id="card-id-5" class="card card-portfolio">            
+  <div id="flip-front-5" class="front">
+      <a class="portfolio-href" href="img/full_25.jpg" data-lightbox="portfolio-lightbox">
+        <img class="card-img img-portfolio" src="img/full_25.jpg" alt="Card image"> 
+      </a>
+    <button id="flip-button-details-5" type="button" class="btn btn-light flip-card show-more">Детали</button>     
+  </div>
+  <div id="flip-back-5" class="back">
+    <div class="card-body">
+      <h4 class="card-title">Card title</h4>  
+      <ul class="list-unstyled">
+        <li>Integer molestie lorem at massa</li>
+        <li>Facilisis in pretium nisl aliquet</li>
+        <li>Nulla volutpat aliquam velit</li>
+        <li>Faucibus porta lacus fringilla vel</li>
+        <li>Eget porttitor lorem</li>
+      </ul>                              
+      <p class="card-text">
+        Some quick example text to build on the card title
+        and make up the bulk of the card's content.
+      </p>                  
+    </div>
+    <button id="flip-button-return-5" type="button" class="btn btn-light flip-card show-more">Назад</button>                                           
+  </div>
+</div>            
+
+<div id="card-id-6" class="card card-portfolio">            
+  <div id="flip-front-6" class="front">
+      <a class="portfolio-href" href="img/reshetka.jpg" data-lightbox="portfolio-lightbox">
+        <img class="card-img img-portfolio" src="img/reshetka.jpg" alt="Card image"> 
+      </a>       
+    <button id="flip-button-details-6" type="button" class="btn btn-light flip-card show-more">Детали</button>     
+  </div>
+  <div id="flip-back-6" class="back">
+    <div class="card-body">
+      <h4 class="card-title">Card title</h4>  
+      <ul class="list-unstyled">
+        <li>Integer molestie lorem at massa</li>
+        <li>Facilisis in pretium nisl aliquet</li>
+        <li>Nulla volutpat aliquam velit</li>
+        <li>Faucibus porta lacus fringilla vel</li>
+        <li>Eget porttitor lorem</li>
+      </ul>                              
+      <p class="card-text">
+        Some quick example text to build on the card title
+        and make up the bulk of the card's content.
+      </p>                  
+    </div>
+    <button id="flip-button-return-6" type="button" class="btn btn-light flip-card show-more">Назад</button>                                           
+  </div>
+</div>            
+<div id="card-id-7" class="card card-portfolio">            
+  <div id="flip-front-7" class="front">
+      <a class="portfolio-href" href="img/30d2aa1fc59d6be9eb71d59c426a59ff.jpg" data-lightbox="portfolio-lightbox">
+        <img class="card-img img-portfolio" src="img/30d2aa1fc59d6be9eb71d59c426a59ff.jpg" alt="Card image"> 
+      </a>
+      <button id="flip-button-details-7" type="button" class="btn btn-light flip-card show-more">Детали</button>     
+  </div>
+  <div id="flip-back-7" class="back">
+    <div class="card-body">
+      <h4 class="card-title">Card title</h4>  
+      <ul class="list-unstyled">
+        <li>Integer molestie lorem at massa</li>
+        <li>Facilisis in pretium nisl aliquet</li>
+        <li>Nulla volutpat aliquam velit</li>
+        <li>Faucibus porta lacus fringilla vel</li>
+        <li>Eget porttitor lorem</li>
+      </ul>                              
+      <p class="card-text">
+        Some quick example text to build on the card title
+        and make up the bulk of the card's content.
+      </p>                  
+    </div>
+    <button id="flip-button-return-7" type="button" class="btn btn-light flip-card show-more">Назад</button>                                           
+  </div>
+</div>            
+
+<div id="card-id-8" class="card card-portfolio">            
+  <div id="flip-front-8" class="front">
+      <a class="portfolio-href" href="img/30d2aa1fc59d6be9eb71d59c426a59ff.jpg" data-lightbox="portfolio-lightbox">
+        <img class="card-img img-portfolio" src="img/30d2aa1fc59d6be9eb71d59c426a59ff.jpg" alt="Card image"> 
+      </a>          
+    <button id="flip-button-details-8" type="button" class="btn btn-light flip-card show-more">Детали</button>     
+  </div>
+  <div id="flip-back-8" class="back">
+    <div class="card-body">
+      <h4 class="card-title">Card title</h4>  
+      <ul class="list-unstyled">
+        <li>Integer molestie lorem at massa</li>
+        <li>Facilisis in pretium nisl aliquet</li>
+        <li>Nulla volutpat aliquam velit</li>
+        <li>Faucibus porta lacus fringilla vel</li>
+        <li>Eget porttitor lorem</li>
+      </ul>                              
+      <p class="card-text">
+        Some quick example text to build on the card title
+        and make up the bulk of the card's content.
+      </p>                  
+    </div>
+    <button id="flip-button-return-8" type="button" class="btn btn-light flip-card show-more">Назад</button>                                           
+  </div>
+</div>            
+
+<div id="card-id-9" class="card card-portfolio">            
+  <div id="flip-front-9" class="front">
+      <a class="portfolio-href" href="img/30d2aa1fc59d6be9eb71d59c426a59ff.jpg" data-lightbox="portfolio-lightbox">
+        <img class="card-img img-portfolio" src="img/30d2aa1fc59d6be9eb71d59c426a59ff.jpg" alt="Card image"> 
+      </a>            
+    <button id="flip-button-details-9" type="button" class="btn btn-light flip-card show-more">Детали</button>     
+  </div>
+  <div id="flip-back-9" class="back">
+    <div class="card-body">
+      <h4 class="card-title">Card title</h4>  
+      <ul class="list-unstyled">
+        <li>Integer molestie lorem at massa</li>
+        <li>Facilisis in pretium nisl aliquet</li>
+        <li>Nulla volutpat aliquam velit</li>
+        <li>Faucibus porta lacus fringilla vel</li>
+        <li>Eget porttitor lorem</li>
+      </ul>                              
+      <p class="card-text">
+        Some quick example text to build on the card title
+        and make up the bulk of the card's content.
+      </p>                  
+    </div>
+    <button id="flip-button-return-9" type="button" class="btn btn-light flip-card show-more">Назад</button>                                           
+  </div>
+</div> 
+  </div>
+<!-- Для маленьких экранов -->
+  <div class="portfolio-wrapper-min">
+    <div class="goals-min">
+      <div id="carousel-portfolio" class="carousel slide" data-ride="false">
+        <ol class="carousel-indicators carousel-indicators-portfolio">
+          <li data-target="#carousel-portfolio" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel-portfolio" data-slide-to="1"></li>
+          <li data-target="#carousel-portfolio" data-slide-to="2"></li>
+          <li data-target="#carousel-portfolio" data-slide-to="3"></li>
+          <li data-target="#carousel-portfolio" data-slide-to="4"></li>
+          <li data-target="#carousel-portfolio" data-slide-to="5"></li>
+          <li data-target="#carousel-portfolio" data-slide-to="6"></li>
+          <li data-target="#carousel-portfolio" data-slide-to="7"></li>
+          <li data-target="#carousel-portfolio" data-slide-to="8"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">   
+              <div id="card-id-10" class="card card-portfolio">            
+                <div id="flip-front-10" class="front">
+                    <a class="portfolio-href" href="img/Black-cat.jpg" data-lightbox="portfolio-min-lightbox">
+                      <img class="card-img img-portfolio" src="img/Black-cat.jpg" alt="Card image"> 
+                    </a>      
+                    <button id="flip-button-details-10" type="button" class="btn btn-light flip-card show-more">Детали</button>     
+                </div>
+                <div id="flip-back-10" class="back">
+                  <div class="card-body">
+                    <h4 class="card-title">Card title</h4>  
+                    <ul class="list-unstyled">
+                      <li>Integer molestie lorem at massa</li>
+                      <li>Facilisis in pretium nisl aliquet</li>
+                      <li>Nulla volutpat aliquam velit</li>
+                      <li>Faucibus porta lacus fringilla vel</li>
+                      <li>Eget porttitor lorem</li>
+                    </ul>                              
+                    <p class="card-text">
+                      Some quick example text to build on the card title
+                      and make up the bulk of the card's content.
+                    </p>                  
+                  </div>
+                  <button id="flip-button-return-10" type="button" class="btn btn-light flip-card show-more">Назад</button>                                           
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">                            
+              <div id="card-id-11" class="card card-portfolio">            
+                <div id="flip-front-11" class="front">
+                    <a class="portfolio-href" href="img/30d2aa1fc59d6be9eb71d59c426a59ff.jpg" data-lightbox="portfolio-min-lightbox">
+                      <img class="card-img img-portfolio" src="img/30d2aa1fc59d6be9eb71d59c426a59ff.jpg" alt="Card image"> 
+                    </a>                            
+                  <button id="flip-button-details-11" type="button" class="btn btn-light flip-card show-more">Детали</button>     
+                </div>
+                <div id="flip-back-11" class="back">
+                  <div class="card-body">
+                    <h4 class="card-title">Card title</h4>  
+                    <ul class="list-unstyled">
+                      <li>Integer molestie lorem at massa</li>
+                      <li>Facilisis in pretium nisl aliquet</li>
+                      <li>Nulla volutpat aliquam velit</li>
+                      <li>Faucibus porta lacus fringilla vel</li>
+                      <li>Eget porttitor lorem</li>
+                    </ul>                              
+                    <p class="card-text">
+                      Some quick example text to build on the card title
+                      and make up the bulk of the card's content.
+                    </p>                  
+                  </div>
+                  <button id="flip-button-return-11" type="button" class="btn btn-light flip-card show-more">Назад</button>                                           
+                </div>
+              </div>   
+            </div>
+            <div class="carousel-item">                     
+              <div id="card-id-12" class="card card-portfolio">            
+                <div id="flip-front-12" class="front">
+                    <a class="portfolio-href" href="img/30d2aa1fc59d6be9eb71d59c426a59ff.jpg" data-lightbox="portfolio-min-lightbox">
+                      <img class="card-img img-portfolio" src="img/30d2aa1fc59d6be9eb71d59c426a59ff.jpg" alt="Card image"> 
+                    </a>              
+                  <button id="flip-button-details-12" type="button" class="btn btn-light flip-card show-more">Детали</button>     
+                </div>
+                <div id="flip-back-12" class="back">
+                  <div class="card-body">
+                    <h4 class="card-title">Card title</h4>  
+                    <ul class="list-unstyled">
+                      <li>Integer molestie lorem at massa</li>
+                      <li>Facilisis in pretium nisl aliquet</li>
+                      <li>Nulla volutpat aliquam velit</li>
+                      <li>Faucibus porta lacus fringilla vel</li>
+                      <li>Eget porttitor lorem</li>
+                    </ul>                              
+                    <p class="card-text">
+                      Some quick example text to build on the card title
+                      and make up the bulk of the card's content.
+                    </p>                  
+                  </div>
+                  <button id="flip-button-return-12" type="button" class="btn btn-light flip-card show-more">Назад</button>                                           
+                </div>
+              </div>              
+            </div>
+            <div class="carousel-item">              
+              <div id="card-id-13" class="card card-portfolio">            
+                <div id="flip-front-13" class="front">
+                    <a class="portfolio-href" href="img/30d2aa1fc59d6be9eb71d59c426a59ff.jpg" data-lightbox="portfolio-min-lightbox">
+                      <img class="card-img img-portfolio" src="img/30d2aa1fc59d6be9eb71d59c426a59ff.jpg" alt="Card image"> 
+                    </a>              
+                  <button id="flip-button-details-13" type="button" class="btn btn-light flip-card show-more">Детали</button>     
+                </div>
+                <div id="flip-back-13" class="back">
+                  <div class="card-body">
+                    <h4 class="card-title">Card title</h4>  
+                    <ul class="list-unstyled">
+                      <li>Integer molestie lorem at massa</li>
+                      <li>Facilisis in pretium nisl aliquet</li>
+                      <li>Nulla volutpat aliquam velit</li>
+                      <li>Faucibus porta lacus fringilla vel</li>
+                      <li>Eget porttitor lorem</li>
+                    </ul>                              
+                    <p class="card-text">
+                      Some quick example text to build on the card title
+                      and make up the bulk of the card's content.
+                    </p>                  
+                  </div>
+                  <button id="flip-button-return-13" type="button" class="btn btn-light flip-card show-more">Назад</button>                                           
+                </div>
+              </div>         
+            </div>
+            <div class="carousel-item">              
+              <div id="card-id-14" class="card card-portfolio">            
+                <div id="flip-front-14" class="front">
+                    <a class="portfolio-href" href="img/30d2aa1fc59d6be9eb71d59c426a59ff.jpg" data-lightbox="portfolio-min-lightbox">
+                      <img class="card-img img-portfolio" src="img/30d2aa1fc59d6be9eb71d59c426a59ff.jpg" alt="Card image"> 
+                    </a>              
+                  <button id="flip-button-details-14" type="button" class="btn btn-light flip-card show-more">Детали</button>     
+                </div>
+                <div id="flip-back-14" class="back">
+                  <div class="card-body">
+                    <h4 class="card-title">Card title</h4>  
+                    <ul class="list-unstyled">
+                      <li>Integer molestie lorem at massa</li>
+                      <li>Facilisis in pretium nisl aliquet</li>
+                      <li>Nulla volutpat aliquam velit</li>
+                      <li>Faucibus porta lacus fringilla vel</li>
+                      <li>Eget porttitor lorem</li>
+                    </ul>                              
+                    <p class="card-text">
+                      Some quick example text to build on the card title
+                      and make up the bulk of the card's content.
+                    </p>                  
+                  </div>
+                  <button id="flip-button-return-14" type="button" class="btn btn-light flip-card show-more">Назад</button>                                           
+                </div>
+              </div>         
+            </div>
+            <div class="carousel-item">              
+              <div id="card-id-15" class="card card-portfolio">            
+                <div id="flip-front-15" class="front">
+                    <a class="portfolio-href" href="img/30d2aa1fc59d6be9eb71d59c426a59ff.jpg" data-lightbox="portfolio-min-lightbox">
+                      <img class="card-img img-portfolio" src="img/30d2aa1fc59d6be9eb71d59c426a59ff.jpg" alt="Card image"> 
+                    </a>              
+                  <button id="flip-button-details-15" type="button" class="btn btn-light flip-card show-more">Детали</button>     
+                </div>
+                <div id="flip-back-15" class="back">
+                  <div class="card-body">
+                    <h4 class="card-title">Card title</h4>  
+                    <ul class="list-unstyled">
+                      <li>Integer molestie lorem at massa</li>
+                      <li>Facilisis in pretium nisl aliquet</li>
+                      <li>Nulla volutpat aliquam velit</li>
+                      <li>Faucibus porta lacus fringilla vel</li>
+                      <li>Eget porttitor lorem</li>
+                    </ul>                              
+                    <p class="card-text">
+                      Some quick example text to build on the card title
+                      and make up the bulk of the card's content.
+                    </p>                  
+                  </div>
+                  <button id="flip-button-return-15" type="button" class="btn btn-light flip-card show-more">Назад</button>                                           
+                </div>
+              </div>         
+            </div>
+            <div class="carousel-item">              
+              <div id="card-id-16" class="card card-portfolio">            
+                <div id="flip-front-16" class="front">
+                    <a class="portfolio-href" href="img/30d2aa1fc59d6be9eb71d59c426a59ff.jpg" data-lightbox="portfolio-min-lightbox">
+                      <img class="card-img img-portfolio" src="img/30d2aa1fc59d6be9eb71d59c426a59ff.jpg" alt="Card image"> 
+                    </a>              
+                  <button id="flip-button-details-16" type="button" class="btn btn-light flip-card show-more">Детали</button>     
+                </div>
+                <div id="flip-back-16" class="back">
+                  <div class="card-body">
+                    <h4 class="card-title">Card title</h4>  
+                    <ul class="list-unstyled">
+                      <li>Integer molestie lorem at massa</li>
+                      <li>Facilisis in pretium nisl aliquet</li>
+                      <li>Nulla volutpat aliquam velit</li>
+                      <li>Faucibus porta lacus fringilla vel</li>
+                      <li>Eget porttitor lorem</li>
+                    </ul>                              
+                    <p class="card-text">
+                      Some quick example text to build on the card title
+                      and make up the bulk of the card's content.
+                    </p>                  
+                  </div>
+                  <button id="flip-button-return-16" type="button" class="btn btn-light flip-card show-more">Назад</button>                                           
+                </div>
+              </div>         
+            </div>
+            <div class="carousel-item">              
+              <div id="card-id-17" class="card card-portfolio">            
+                <div id="flip-front-17" class="front">
+                    <a class="portfolio-href" href="img/30d2aa1fc59d6be9eb71d59c426a59ff.jpg" data-lightbox="portfolio-min-lightbox">
+                      <img class="card-img img-portfolio" src="img/30d2aa1fc59d6be9eb71d59c426a59ff.jpg" alt="Card image"> 
+                    </a>              
+                  <button id="flip-button-details-17" type="button" class="btn btn-light flip-card show-more">Детали</button>     
+                </div>
+                <div id="flip-back-17" class="back">
+                  <div class="card-body">
+                    <h4 class="card-title">Card title</h4>  
+                    <ul class="list-unstyled">
+                      <li>Integer molestie lorem at massa</li>
+                      <li>Facilisis in pretium nisl aliquet</li>
+                      <li>Nulla volutpat aliquam velit</li>
+                      <li>Faucibus porta lacus fringilla vel</li>
+                      <li>Eget porttitor lorem</li>
+                    </ul>                              
+                    <p class="card-text">
+                      Some quick example text to build on the card title
+                      and make up the bulk of the card's content.
+                    </p>                  
+                  </div>
+                  <button id="flip-button-return-17" type="button" class="btn btn-light flip-card show-more">Назад</button>                                           
+                </div>
+              </div>         
+            </div>
+            <div class="carousel-item">              
+              <div id="card-id-18" class="card card-portfolio">            
+                <div id="flip-front-18" class="front">
+                    <a class="portfolio-href" href="img/30d2aa1fc59d6be9eb71d59c426a59ff.jpg" data-lightbox="portfolio-min-lightbox">
+                      <img class="card-img img-portfolio" src="img/30d2aa1fc59d6be9eb71d59c426a59ff.jpg" alt="Card image"> 
+                    </a>              
+                  <button id="flip-button-details-18" type="button" class="btn btn-light flip-card show-more">Детали</button>     
+                </div>
+                <div id="flip-back-18" class="back">
+                  <div class="card-body">
+                    <h4 class="card-title">Card title</h4>  
+                    <ul class="list-unstyled">
+                      <li>Integer molestie lorem at massa</li>
+                      <li>Facilisis in pretium nisl aliquet</li>
+                      <li>Nulla volutpat aliquam velit</li>
+                      <li>Faucibus porta lacus fringilla vel</li>
+                      <li>Eget porttitor lorem</li>
+                    </ul>                              
+                    <p class="card-text">
+                      Some quick example text to build on the card title
+                      and make up the bulk of the card's content.
+                    </p>                  
+                  </div>
+                  <button id="flip-button-return-18" type="button" class="btn btn-light flip-card show-more">Назад</button>                                           
+                </div>
+              </div>         
+            </div>
+        </div>
+        <a class="carousel-control-prev carousel-control-portfolio" href="#carousel-portfolio" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon bg-dark mb-2" aria-hidden="true"></span>
+          <span class="sr-only ">Previous</span>
+        </a>
+        <a class="carousel-control-next carousel-control-portfolio" href="#carousel-portfolio" role="button" data-slide="next">
+          <span class="carousel-control-next-icon bg-dark mb-2" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+      
+    </div>
+  </div>
+  
+</section>
+<section id="work-steps" class="container-fluid bg-light section-work-steps">
+    <div class="row text-center ">
+        <div class="col work-steps-head">
+          <h2 class="mb-3">Схема работы</h2>
+          <P class="text-secondary">Работа над вашим заказом будет включать в себя следующие этапы</P>
+        </div>
+      </div>
+      <div class="work-steps-wrapper">
+        <img src="img/Black-cat.jpg" class="img-fluid bg-secondary img-work-steps" alt="Responsive image">
+        <div class="work-steps-border-wrap work-steps-border-wrap-red work-step-left p-3 my-3 my-md-0 shadow">
+            <div class="row">
+              <div class="col-md-2 d-none d-md-block">
+                <span class="work-steps-span text-secondary">01</span> 
+              </div>
+              <div class="mt-md-4 col">
+                <h3>Планирование</h3>                          
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis pr
+                     aesentium quasi cum ex, delectus facere, quam, aspernat
+                     ur ratione maxime numquam nesciunt. Vel excepturi distinctio d
+                     icta! Tenetur eius ex debitis vero! Lorem ipsum dolor sit amet consectetur,
+                     adipisicing elit.
+                </p>
+              </div>            
+            </div>       
+          </div>
+        
+      </div>
+          <div class="work-steps-wrapper">
+              <img src="img/Black-cat.jpg" class="img-fluid bg-secondary img-work-steps" alt="Responsive image">
+              <div class="work-steps-border-wrap work-steps-border-wrap-green work-step-right p-3 my-3 my-md-0 shadow">
+                  <div class="row">
+                    <div class="col-md-2 d-none d-md-block">
+                      <span class="work-steps-span text-secondary">02</span> 
+                    </div>
+                    <div class="mt-md-4 col">
+                      <h3>Формирование очага</h3>                          
+                      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis pr
+                           aesentium quasi cum ex, delectus facere, quam, aspernat
+                           ur ratione maxime numquam nesciunt. Vel excepturi distinctio d
+                           icta! Tenetur eius ex debitis vero! Lorem ipsum dolor sit amet consectetur,
+                           adipisicing elit.
+                      </p>
+                    </div>            
+                  </div>       
+                </div>        
+      </div>
+      <div class="work-steps-wrapper">
+          <img src="img/Black-cat.jpg" class="img-fluid bg-secondary img-work-steps" alt="Responsive image">
+          <div class="work-steps-border-wrap work-steps-border-wrap-purple work-step-left p-3 my-3 my-md-0 shadow">
+              <div class="row">
+                <div class="col-md-2 d-none d-md-block">
+                  <span class="work-steps-span text-secondary">03</span> 
+                </div>
+                <div class="mt-md-4 col">
+                  <h3>Шлифовка</h3>                          
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis pr
+                       aesentium quasi cum ex, delectus facere, quam, aspernat
+                       ur ratione maxime numquam nesciunt. Vel excepturi distinctio d
+                       icta! Tenetur eius ex debitis vero! Lorem ipsum dolor sit amet consectetur,
+                       adipisicing elit.
+                  </p>
+                </div>            
+              </div>       
+            </div>
+          
+        </div>
+            <div class="work-steps-wrapper">
+                <img src="img/Black-cat.jpg" class="img-fluid bg-secondary img-work-steps" alt="Responsive image">
+                <div class="work-steps-border-wrap work-steps-border-wrap-orange work-step-right p-3 my-3 my-md-0 shadow">
+                    <div class="row">
+                      <div class="col-md-2 d-none d-md-block">
+                        <span class="work-steps-span text-secondary">04</span> 
+                      </div>
+                      <div class="mt-md-4 col">
+                        <h3>Покраска</h3>                          
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis pr
+                             aesentium quasi cum ex, delectus facere, quam, aspernat
+                             ur ratione maxime numquam nesciunt. Vel excepturi distinctio d
+                             icta! Tenetur eius ex debitis vero! Lorem ipsum dolor sit amet consectetur,
+                             adipisicing elit.
+                        </p>
+                      </div>            
+                    </div>       
+                  </div>        
+        </div>    
+
+</section>
+</main>
+<!-- Подвал -->
+<footer id="footer" class="container-fluid bg-dark section-footer">
+  <div class="row text-center ">
+    <div class="col communication-steps-head">
+      <h2 class="mb-3 text-warning">Контакты</h2>
+      <P class="text-white">Заполните форму или позвоните нам</P>
+    </div>
+  </div>
+  <form class="needs-validation" novalidate>
+    <div class="form-row">
+      <div class="col-md-5 offset-md-1 col-lg-4 offset-lg-2 col-xl-3 ml-xl-auto mb-5">
+        <label for="validationTooltipName" class="text-white">Имя</label>
+        <input type="text" class="form-control" id="validationTooltipName" placeholder="Имя" required>
+        <div class="invalid-tooltip">
+            Пожалуйста введите ваше имя
+        </div>
+      </div>
+      <div class="col-md-5 col-lg-4 col-xl-3 mr-xl-auto mb-5">
+        <label for="validationTooltipEmail" class="text-white">E-mail</label>        
+          <input type="email" class="form-control" id="validationTooltipEmail" placeholder="Example@mail.ru" required>
+          <div class="invalid-tooltip">
+            Пожалуйста введите корректный e-mail.
+          </div>        
+      </div>
+    </div>
+    <div class="form-row">
+        <div class="col-md-5 offset-md-1 col-lg-4 offset-lg-2 col-xl-3 ml-xl-auto mb-5">
+            <label for="validationTooltipNumber" class="text-white">Номер телефона</label>
+
+            <input type="text" class="form-control" id="validationTooltipNumber" placeholder="+375 (XX) XXX-XX-XX" required>
+            <div class="invalid-tooltip">
+                Пожалуйста введите номер телефона
+            </div>
+            
+          </div>
+          <div class="col-md-5 col-lg-4 col-xl-3 mr-xl-auto mb-5">
+              <label for="validationTooltipServices" class="text-white">Тема</label>
+              <select id="validationTooltipServices" class="custom-select" required>
+                  <option value="">Открыть меню выбора</option>
+                  <option value="1">Уличные очага в форме шара</option>
+                  <option value="2">Декоративные садовые мангалы</option>
+                  <option value="3">Декоративные решетки на окна</option>
+                  <option value="4">Ворота-калитки</option>
+                  <option value="5">Иное</option>
+                </select>
+                <div class="invalid-tooltip">Пожалуйста выберите тему сообщения</div>
+            </div> 
+    </div>
+    <div class="form-row">
+        <div class="col-md-10 col-lg-8 col-xl-6 mx-md-auto mb-5">
+            <label for="validationTextarea" class="text-white">Ваше сообщение</label>
+            <textarea class="form-control" id="validationTextarea" placeholder="" rows="3"></textarea>
+
+        </div>
+      </div>
+    <div class="form-row">
+      <div class="col-md-6 mx-md-auto col-xl-3 mb-3">
+    <button class="btn btn-block btn-warning rounded-pill btn-lg" type="submit">Отправить форму</button>
+      </div>
+    </div>
+  </form>   
+<div class="row text-white text-md-center mt-5">
+  <div class="col-12 col-md-4 mb-3 align-self-center d-none d-md-block ">     
+      <i class="fas fa-fire fa-3x fire-ico"></i>
+  </div>
+  <div class="col-12 col-md-4 mb-3">    
+    <h4 class="mb-2 text-warning"><i class="fas fa-phone-alt mr-2"></i>Номера телефонов:</h4>
+    <a class="d-block text-white" href="tel:+375291133809">Life: +375 (29) 686-38-09</a>
+    <a class="d-block text-white" href="tel:+375447773355">MTS: +375 (44) 777-33-55</a>
+  </div>
+  <div class="col-12 col-md-4 mb-3">
+      <h4 class="mb-2 text-warning"><i class="far fa-envelope mr-2"></i>E-mail:</h4>
+      <p>Ochag@tut.by</p>
+  </div>
+</div>
+</footer>
+<!-- Секция для подключаемых скриптов -->
+<!-- <script src="js/bootstrap.min.js"></script> -->
+<script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="js/lightbox.min.js"></script>
+  <script src="js/jquery.vide.min.js"></script>
+  <script src="js/jquery.maskedinput.min.js"></script>
+  <script src="js/main.js"></script>
 </body>
 </html>
